@@ -26,6 +26,7 @@
         _btn.backgroundColor = [UIColor redColor];
         _btn.tag = 1000+i;
         [self.view addSubview:_btn];
+        NSLog(@"------");
     }
     
 }
